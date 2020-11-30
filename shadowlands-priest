@@ -1,0 +1,15 @@
+## ChastiseMO
+*Chastise Mouse Over*
+#showtooltip Holy Word: Chastise
+/cast [@mouseover,harm,nodead] [harm] [@mouseovertarget,harm] [@targettarget,harm] []Holy Word: Chastise
+
+## death
+*Shadowword Deatch Target*
+#showtooltip
+/cast [@target,harm,nodead] [@targettarget harm] Shadow Word: Death;  [] Shadow Word: Death
+
+
+## Shield
+*Shield target or enemy target*
+#showtooltip Power Word: Shield
+/cast [@target,help,nodead][@targettarget,help,nodead]Power Word: Shield; [] Power Word: Shield;
