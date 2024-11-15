@@ -13,3 +13,12 @@
 *Shield target or enemy target*
 #showtooltip Power Word: Shield
 /cast [@target,help,nodead][@targettarget,help,nodead]Power Word: Shield; [] Power Word: Shield;
+
+#showtooltip Smite
+/cast [@mouseover,harm,nodead] [harm] [@mouseovertarget,harm] [@targettarget,harm] []Smite
+
+
+/focus
+/script SetRaidTargetIcon("target",4)
+
+/script [mod:shift][@target,exists]focus; SetRaidTargetIcon("target",4); [nomod:shift] target @focus
