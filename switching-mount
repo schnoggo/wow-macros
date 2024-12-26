@@ -1,0 +1,4 @@
+#showtooltip
+/dismount
+/stopmacro [mounted]
+/cast [flyable]Charming Currier;[swimming]Crimson Water Strider;Fossilized Raptor;
