@@ -1,0 +1,3 @@
+## FinishFish
+#showtooltip
+/cast [mod:shift][@target,noexists] Fishing; [] Dispatch
