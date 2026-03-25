@@ -1,3 +1,3 @@
 ## FinishFish
 #showtooltip
-/cast [mod:shift][@target,noexists] Fishing; [] Dispatch
+/cast [combat] Dispatch; [mod:shift,combat] Pistol Shot; [stealth,exists] Cheap Shot; [nocombat] Fishing
